@@ -1,25 +1,12 @@
-= Audio Library for Arduino Zero=
+### Audio Library for Arduino SAMD21
 
-The Zerodio library enables an Arduino Zero board to play back 8bit .wav files 
+The SamdAudio library enables an Arduino SAMD21 board to play back 8bit .wav files 
 from a storage device like an SD card, without blocking program execution.
 
-For more information about this library please visit us at
-http://arduino.cc/en/Reference/Audio
+This library is based off of ALoyseTech original SamdAudio, but has some minor functionality improvements.
 
-== License ==
+Library allows the user to setup upto four channels of sound, allowing for up to four sounds to be played simultaneously! 
 
-Copyright (c) ALoyseTech. All right reserved.
+This library has also been verified to work with FreeRtos https://github.com/BriscoeTech/Arduino-FreeRTOS-SAMD21
 
-This library is free software; you can redistribute it and/or
-modify it under the terms of the GNU Lesser General Public
-License as published by the Free Software Foundation; either
-version 2.1 of the License, or (at your option) any later version.
 
-This library is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public
-License along with this library; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
