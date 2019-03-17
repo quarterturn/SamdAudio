@@ -1,7 +1,15 @@
-***Arduino Audio Library for Arduino SAMD21
-This polyphonic library allows you to play WAV files from SPI Flash and SD card. Plays up to ~4 WAV files simultaneously. Medium quality output 8bit and up to 44.1khz if using QUAD SPI flash on the Adafruit M0 boards.
+###Arduino Audio Library for Arduino SAMD21
+This polyphonic library allows you to play WAV files from SPI Flash and SD card. Plays up to ~4 WAV files simultaneously. 
 
-This library plays WAV files stored on the SPI Flash Adafruit includes on their Express boards. This includes: *Itsybits M0 Express (tested) *Trinket M0 Express (have board will test) *ItsyBitsy M4 Express *Feather M0 Express
+Medium quality output 8bit and up to 44.1khz if using QUAD SPI flash on the Adafruit M0 boards. Reduced quality ~22khz using an SD card.
+
+This library plays WAV files stored on the SPI Flash Adafruit includes on their Express boards. 
+This includes: 
+*Itsybits M0 Express (tested) 
+*Trinket M0 Express (have board will test) 
+*ItsyBitsy M4 Express 
+*Feather M0 Express
+
 
 Read this great description in the Adafruit tutorial for getting the WAV files onto your Adafruit M0 Express board https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all#using-spi-flash Thanks to Tondy Dicola and Adafruit for making this so easy!
 
