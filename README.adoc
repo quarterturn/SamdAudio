@@ -14,7 +14,7 @@ Thanks to Tondy Dicola and Adafruit for making this so easy!
 
 For the Flash storage to work these lines need to be edited in SamdAudio.cpp
 
-![edits][https://github.com/hydronics2/SamdAudio/blob/master/library_modification_flash.JPG]
+![edits](https://github.com/hydronics2/SamdAudio/blob/master/library_modification_flash.JPG)
 
 
 
