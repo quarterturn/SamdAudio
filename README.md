@@ -28,9 +28,8 @@ To revert back to the default flash storage use:
 ![edits flash](https://github.com/hydronics2/SamdAudio/blob/master/library_modification_flash.JPG)
 
 
-example included in the folder above:
+Flash example included in the examples folder. See also SD Card Example:
 
-        '''C++
         /*
 
           Audio player, non blocking.
@@ -160,4 +159,3 @@ example included in the folder above:
           } 
         }
 
-        '''
