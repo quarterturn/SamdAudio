@@ -30,7 +30,7 @@ To revert back to the default flash storage use:
 
 example included in the folder above:
 
-
+'''C
         /*
 
           Audio player, non blocking.
@@ -74,7 +74,7 @@ example included in the folder above:
         // Finally create an Adafruit_M0_Express_CircuitPython object which gives
         // an SD card-like interface to interacting with files stored in CircuitPython's
         // flash filesystem.
-        //Adafruit_M0_Express_CircuitPython pythonfs(flash);
+
         Adafruit_W25Q16BV_FatFs memory(flash);
 
         #include <SamdAudio.h> // 
@@ -160,3 +160,4 @@ example included in the folder above:
           } 
         }
 
+'''
