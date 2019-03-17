@@ -30,7 +30,7 @@ To revert back to the default flash storage use:
 
 example included in the folder above:
 
-'''C
+        '''C++
         /*
 
           Audio player, non blocking.
@@ -160,4 +160,4 @@ example included in the folder above:
           } 
         }
 
-'''
+        '''
