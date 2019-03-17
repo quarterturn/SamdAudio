@@ -1,12 +1,18 @@
-### Audio Library for Arduino SAMD21
+### Arduino Audio Library for Arduino SAMD21
 
-The SamdAudio library enables an Arduino SAMD21 board to play back 8bit .wav files 
-from a storage device like an SD card, without blocking program execution.
+This polyphonic library allows you to play WAV files from SPI Flash and SD card. Plays up to ~4 WAV files simultaneously. Medium quality output 8bit and up to 44.1khz if using QUAD SPI flash on the Adafruit M0 boards.
 
-This library is based off of ALoyseTech original SamdAudio, but has some minor functionality improvements.
+This library plays WAV files stored on the SPI Flash Adafruit includes on their Express boards. This includes:
+- Itsybits M0 Express (tested)
+- Trinket M0 Express (have board will test)
+- ItsyBitsy M4 Express
+- Feather M0 Express
 
-Library allows the user to setup upto four channels of sound, allowing for up to four sounds to be played simultaneously! 
+Read this great description in the Adafruit tutorial for getting the WAV files onto your Adafruit M0 Express board
+https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all#using-spi-flash
+Thanks to Tondy Dicola and Adafruit for making this so easy!
 
-This library has also been verified to work with FreeRtos https://github.com/BriscoeTech/Arduino-FreeRTOS-SAMD21
+
+
 
 
