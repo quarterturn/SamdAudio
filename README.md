@@ -8,7 +8,7 @@ Plays up to ~4 WAV files simultaneously.
 
 Medium quality output 8bit and up to 44.1khz if using QUAD SPI flash on the Adafruit M0 boards. Reduced quality ~22khz using an SD card. 
 
-It all sound fairly marginal at 8bit. Until we get 16bit DMA output going on the SAMD21, for good sound quality, I recommend going with a [Teensy](https://www.pjrc.com/teensy/td_libs_Audio.html) or a peripherial codec to do the heavy lifting.
+It all sound fairly marginal at 8bit. Until we get 16bit DMA output going on the SAMD21, for good sound quality, I recommend going with a [Teensy](https://www.pjrc.com/teensy/td_libs_Audio.html) or a peripherial codec to do the heavy lifting of playing quality audio.... but hey this all sounds better than the Arduino UNO.
 
 The following Adafruit Express boards have onboard FLASH where you can store up to 2MB of sound ~30-60seconds.
 This includes: 
