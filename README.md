@@ -12,8 +12,8 @@ It all sound fairly marginal at 8bit. Until we get 16bit DMA output going on the
 
 The following Adafruit Express boards have onboard FLASH where you can store up to 2MB of sound ~30-60seconds.
 This includes: 
-* Itsybits M0 Express (tested) 
-* Trinket M0 Express (have board will test) 
+* [Itsybits M0 Express](https://www.adafruit.com/product/3727) (tested) 
+* [Trinket M0 Express](https://www.adafruit.com/product/3500) (have board will test) 
 * ItsyBitsy M4 Express 
 * Feather M0 Express
 
@@ -23,11 +23,11 @@ Read this great description in the Adafruit tutorial for getting the WAV files o
 https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all#using-spi-flash 
 Thanks to Tondy Dicola and Adafruit for making this so easy!
 
-For the SD card use these lines need to be edited in SamdAudio.cpp
+For the SD card example, these lines need to be edited in SamdAudio.cpp
 
 ![edits sd](https://github.com/hydronics2/SamdAudio/blob/master/library_modification_SD_card.JPG)
 
-To revert back to the default flash storage use:
+To revert back to playing WAV files from flash storage example goes like this in SamdAudio.cpp:
 
 ![edits flash](https://github.com/hydronics2/SamdAudio/blob/master/library_modification_flash.JPG)
 
