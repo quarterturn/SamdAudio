@@ -2,9 +2,9 @@
 
 This polyphonic library allows you to play WAV files from SPI Flash and SD card to the 10bit DAC of a SAMD21 (Pin A0 on many boards). 
 
-Plays up to ~4 WAV files simultaneously.
-
 ![Adafruit image](https://cdn-learn.adafruit.com/assets/assets/000/057/479/original/circuitpython_ItsyBitsyM0AudioJackButtonPot_bb.jpg?1531328765) Adafruit has a nice tutorial on how to connect the pin to a 1/8" audio jack. The hookup [instructions are here](https://learn.adafruit.com/circuitpython-essentials/circuitpython-audio-out) (ignore the circiut python example as this library is for an Arduino sketch).
+Plays up to ~4 WAV files simultaneously.
+[![IMAGE ALT TEXT](http://img.youtu.be/A0afENS1ev4/0.jpg)](https://youtu.be/A0afENS1ev4 "Playing polyphonic")
 
 The 8bit sound quality is medium quality. I was able to get up to 44.1khz using SPI flash on the Adafruit M0 boards. The quality needed to  be reduced to ~22khz when playing from the SD card.
 
