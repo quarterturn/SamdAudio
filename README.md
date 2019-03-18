@@ -12,11 +12,10 @@ It all sound fairly marginal at 8bit. Until we get 16bit DMA output going on the
 
 The following Adafruit Express boards have onboard FLASH where you can store up to 2MB of sound ~30-60seconds.
 This includes: 
-* [Itsybits M0 Express](https://www.adafruit.com/product/3727) (tested) 
-* [Trinket M0 Express](https://www.adafruit.com/product/3500) (have board will test) 
-* ItsyBitsy M4 Express 
-* Feather M0 Express
-
+* [Itsybits M0 Express](https://www.adafruit.com/product/3727) (tested)
+* [Adafruit Metro M0 Express](https://www.adafruit.com/product/3505)
+* [Trinket M0 Express](https://www.adafruit.com/product/3500) and Gemma Express no SPI Flash so SD card playing only. 
+* Adafruit M4 Express boards with the SAMD51? should work 
 
 
 Read this great description in the Adafruit tutorial for getting the WAV files onto your Adafruit M0 Express board
@@ -162,4 +161,6 @@ Flash example included in the examples folder. See also SD Card Example:
             }    
           } 
         }
+
+
 
