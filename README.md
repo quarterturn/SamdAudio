@@ -4,13 +4,13 @@ This polyphonic library allows you to play WAV files from SPI Flash and SD card 
 
 Plays up to ~4 WAV files simultaneously.
 
-![Adafruit image](https://cdn-learn.adafruit.com/assets/assets/000/057/479/original/circuitpython_ItsyBitsyM0AudioJackButtonPot_bb.jpg?1531328765)
+![Adafruit image](https://cdn-learn.adafruit.com/assets/assets/000/057/479/original/circuitpython_ItsyBitsyM0AudioJackButtonPot_bb.jpg?1531328765) The hookup [instructions are here](https://learn.adafruit.com/circuitpython-essentials/circuitpython-audio-out) (ignore the circiut python example as this library is for an Arduino sketch).
 
 Medium quality output 8bit and up to 44.1khz if using QUAD SPI flash on the Adafruit M0 boards. Reduced quality ~22khz using an SD card. 
 
 It all sound fairly marginal at 8bit. Until we get 16bit DMA output going on the SAMD21, for good sound quality, I recommend going with a [Teensy](https://www.pjrc.com/teensy/td_libs_Audio.html) or a peripherial codec to do the heavy lifting.
 
-This library plays WAV files stored on the SPI Flash Adafruit includes on their Express boards. 
+The following Adafruit Express boards have onboard FLASH where you can store up to 2MB of sound ~30-60seconds.
 This includes: 
 * Itsybits M0 Express (tested) 
 * Trinket M0 Express (have board will test) 
