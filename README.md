@@ -21,7 +21,7 @@ This includes:
 
 Read this great description in the Adafruit tutorial for getting the WAV files onto your Adafruit M0 Express board
 https://learn.adafruit.com/introducing-itsy-bitsy-m0?view=all#using-spi-flash 
-Thanks to Tondy Dicola and Adafruit for making this so easy!
+Thanks to Tony Dicola and Adafruit for making this so easy!
 
 For the SD card example, these lines need to be edited in SamdAudio.cpp
 
