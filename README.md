@@ -6,7 +6,7 @@ Plays up to ~4 WAV files simultaneously.
 
 ![Adafruit image](https://cdn-learn.adafruit.com/assets/assets/000/057/479/original/circuitpython_ItsyBitsyM0AudioJackButtonPot_bb.jpg?1531328765) Adafruit has a nice tutorial on how to connect the pin to a 1/8" audio jack. The hookup [instructions are here](https://learn.adafruit.com/circuitpython-essentials/circuitpython-audio-out) (ignore the circiut python example as this library is for an Arduino sketch).
 
-Medium quality output 8bit and up to 44.1khz if using QUAD SPI flash on the Adafruit M0 boards. Reduced quality ~22khz using an SD card. 
+The 8bit sound quality is medium quality. I was able to get up to 44.1khz using SPI flash on the Adafruit M0 boards. Reduced quality ~22khz using an SD card. 
 
 It all sound fairly marginal at 8bit. Until we get 16bit DMA output going on the SAMD21, for good sound quality, I recommend going with a [Teensy](https://www.pjrc.com/teensy/td_libs_Audio.html) or a peripherial codec to do the heavy lifting of playing quality audio.... but hey this all sounds better than the Arduino UNO.
 
