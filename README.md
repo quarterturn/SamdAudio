@@ -1,5 +1,10 @@
 ### Arduino Audio Library for Arduino SAMD21
 
+NOTE:
+This fork contains a very minor change aimed at eliminating digital noise coming from the DAC
+even after the end() method is used. The DAC is enabled at each play() and disabled at each end() via DAC->CTRLA.bit.ENABLE
+
+
 This polyphonic library allows you to play WAV files from SPI Flash and SD card to the 10bit DAC of a SAMD21 (Pin A0 on many boards). 
 Plays up to ~4 WAV files simultaneously.
 [![IMAGE ALT TEXT](https://github.com/hydronics2/SamdAudio/blob/master/screen_shot.JPG)](https://youtu.be/A0afENS1ev4 "Playing polyphonic")
